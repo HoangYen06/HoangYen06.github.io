@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="vi-VN">
+	<head>
+		<title>Thông tin chuyến bay</title>
+		<meta name="author" content="Nguyễn Thị Hoàng Yến">
+		<meta name="description" content="Thiết kế Web">
+		<meta name="keywords" content="20CT2101, Thiết kế Web, CNTT, Trường đại học Đà Lạt">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" href="https://dlu.edu.vn/wp-content/uploads/2023/06/cropped-DLU-Logo-full-New-32x32.png" sizes="32x32">
+	<style>
+		tr:nth-child(even) {
+			background-color:#B0C4DE;}
+		table,th,td{
+			border:1pt solid black;
+			border-collapse:collapse;
+		}
+		.topnav {
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		.topnav a{
+			float: left;
+			color: #f2f2f2;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+		}
+		.topnav a:hover {
+			background-color: #04AA6D;
+			color: white;
+		}
+		.topnav a.active {
+			background-color: #04AA6D;
+			color: white;
+		}
+
+	</style>
+	</head>
+	
+	<body>
+	<table style="text-align:center;width:100%">
+		<tr>
+			<th>Kế hoạch (Scheduled)</th>
+			<th>Dự kiến (Estimated)</th>
+			<th>Nơi đến (Destiantion)</th>
+			<th>Hãng (Airlines)</th>
+			<th>Chuyến bay (Flight)</th>
+			<th>Cửa (Gate)</th>
+			<th>Ghi chú (Remarks)</th>
+		</tr>
+		
+		<tr>
+			<td>05:50</td>
+			<td></td>
+			<td>Tuy Hòa</td>
+			<td><a href="https://www.vietjetair.com/vi" target="_blank"><img src="vietjet.png" alt="" style="width:100px;height:20px"></a></td>
+			<td>VJ 206</td>
+			<td>12</td>
+			<td>Cancalled</td>
+		</tr>
+		<tr>
+			<td>05:55</td>
+			<td>14:15</td>
+			<td>Phú Quốc</td>
+			<td><a href="https://www.bambooairways.com/" target="_blank"><img src="bamboo.png" alt="" style="width:100px;height:20px"></a></td>
+			<td>QH 1525</td>
+			<td>10</td>
+			<td>Delayed</td>
+		</tr>
+		<tr>
+			<td>06:05</td>
+			<td>11:20</td>
+			<td>Phú Quốc</td>
+			<td><a href="https://www.pacific-airlines.com/" target="_blank"><img src="pacific.png" alt="" style="width:100px;height:20px"></a></td>
+			<td>VN 6511</td>
+			<td>2</td>
+			<td>Delayed</td>
+		</tr>
+		<tr>
+			<td>06:50</td>
+			<td></td>
+			<td>Phú Quốc</td>
+			<td><a href="https://www.vietnamairlines.com/" target="_blank"><img src="vietnam.png" alt="" style="width:100px;height:20px"></a></td>
+			<td>VN 1823</td>
+			<td>10</td>
+			<td>Delayed</td>
+		</tr>
+		<tr>
+			<td>07:00</td>
+			<td></td>
+			<td>Côn Đảo</td>
+			<td><a href="https://vi.wikipedia.org/wiki/C%C3%B4ng_ty_Bay_D%E1%BB%8Bch_v%E1%BB%A5_H%C3%A0ng_kh%C3%B4ng" target="_blank"><img src="vasco.png" alt="" style="width:100px;height:20px"></a></td>
+			<td>0V 8059</td>
+			<td>3</td>
+			<td>Delayed</td>
+		</tr>
+		<tr>
+			<td>07:25</td>
+			<td>10:30</td>
+			<td>Phú Quốc</td>
+			<td><a href="https://www.pacific-airlines.com/" target="_blank"><img src="pacific.png" alt="" style="width:100px;height:20px"></a></td>
+			<td>VN 6513</td>
+			<td>2</td>
+			<td>Boarding</td>
+		</tr>
+		<tr>
+			<td>07:30</td>
+			<td>13:25</td>
+			<td>Côn Đảo</td>
+			<td><a href="https://www.vietnamairlines.com/" target="_blank"><img src="vietnam.png" alt="" style="width:100px;height:20px"></a></td>
+			<td>VN 1865</td>
+			<td>9</td>
+			<td>Delayed</td>
+		</tr>
+		<tr>
+			<td>08:55</td>
+			<td>13:35</td>
+			<td>Côn Đảo</td>
+			<td><a href="https://www.vietnamairlines.com/" target="_blank"><img src="vietnam.png" alt="" style="width:100px;height:20px"></a></td>
+			<td>VN 1857</td>
+			<td>9</td>
+			<td>Delayed</td>
+		</tr>
+		<tr>
+			<td>10:10</td>
+			<td>13:50</td>
+			<td>Phú Quốc</td>
+			<td><a href="https://www.pacific-airlines.com/" target="_blank"><img src="pacific.png" alt="" style="width:100px;height:20px"></a></td>
+			<td>BL 6527</td>
+			<td>3</td>
+			<td>Delayed</td>
+		</tr>
+		<tr>
+			<td>10:10</td>
+			<td>14:10</td>
+			<td>Phú Quốc</td>
+			<td><a href="https://www.vietnamairlines.com/" target="_blank"><img src="vietnam.png" alt="" style="width:100px;height:20px"></a></td>
+			<td>VN 1827</td>
+			<td>15</td>
+			<td>Delayed</td>
+		</tr>
+
+		<div class="topnav">
+			<a href="index.html"target="_blank" >Trang chủ</a> 
+			<a href="timetable.html"target="_blank">Thời Khóa biểu</a> 
+			<a href="flights.html"target="_blank " class="active">Thông tin chuyến bay</a>
+			<a href="recipes.html"target="_blank">Công thức nấu ăn ngon</a> 
+		</div>
+	</body>
