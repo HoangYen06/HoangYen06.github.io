@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta name="author" content="Nguyễn Thị Hoàng Yến">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiệp Mời Sinh Nhật</title>
+	
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f9f3f3;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            position: relative;
+        }
+        .card {
+            width: 60%;
+            max-width: 500px;
+            background: rgba(255, 255, 255, 0.8);
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 2;
+        }
+        .background-img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.3;
+            z-index: 1;
+        }
+        .title {
+            font-family: 'Lobster', cursive;
+            font-size: 2em;
+            color: #ff4081;
+        }
+        .content {
+            font-family: 'Pacifico', cursive;
+            font-size: 1.2em;
+            color: #333;
+            margin: 15px 0;
+        }
+        .details {
+            font-size: 1em;
+            font-weight: 400;
+            color: #666;
+        }
+        .footer {
+            margin-top: 20px;
+            font-weight: 700;
+            color: #ff4081;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1 class="title">Thiệp Mời Sinh Nhật</h1>
+		<img src="BD.jpg" alt="Hình ảnh sinh nhật" class="background-img">
+        <p class="content">Xin mời bạn đến tham dự buổi tiệc sinh nhật của mình nhé!</p>
+        <p class="details">Ngày: 25/03/2025</p>
+        <p class="details">Địa điểm: Quán nướng Xóm Lèo</p>
+        <p class="details">Thời gian: 18:00</p>
+        <p class="footer">Mong được gặp bạn!</p>
+    </div>
+</body>
+</html>
