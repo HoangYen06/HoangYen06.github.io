@@ -1,0 +1,200 @@
+.site-footer {
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+}
+
+.site-footer hr .small {
+    margin: 20px 0;
+}
+
+.site-footer h6 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-links li {
+    display: block;
+}
+
+.footer-links a {
+    color: #737373;
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block;
+}
+
+.copyright-text {
+    margin: 0;
+}
+#menu {
+	background: #0099CC;
+	height: 45px;
+	padding-left:18px;
+	border-radius:10px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#menu ul, #menu li {
+	margin: 0 auto;
+	padding: 0;
+	list-style: none
+}
+
+#menu ul {
+	width: 100%;
+	text-align: left;
+}
+
+#menu li {
+	display: inline-block;
+	position: relative;
+}
+
+			#menu a {
+				display: block;
+				line-height: 45px;
+				padding: 0 14px;
+				text-decoration: none;
+				color: #FFFFFF;
+				font-size: 16px;
+			}
+			
+			#menu a.dropdown-arrow:after {
+				content: "\25BE";
+				margin-left: 5px;
+			}
+			
+			#menu li a:hover {
+				color: #0099CC;
+				background: #F2F2F2;
+			}
+
+			#menu label:before {
+				font-size: 1.6em;
+				color: #FFFFFF;
+				content: "\2261";
+				margin-left: 20px;
+			}
+
+			#menu ul.sub-menus {
+				height: auto;
+				overflow: hidden;
+				width: 170px;
+				background: #444444;
+				position: absolute;
+				z-index: 99;
+				display: none;
+			}
+
+			#menu ul.sub-menus li {
+				display: block;
+				text-align: left;
+				width: 100%;
+			}
+
+			#menu ul.sub-menus a {
+				color: #FFFFFF;
+				font-size: 16px;
+			}
+
+			#menu li:hover ul.sub-menus {
+				display: block
+			}
+
+			#menu ul.sub-menus a:hover {
+				background: #F2F2F2;
+				color: #444444;
+			}
+
+            h1 {
+                font: 700 40px/1.5 'Segoe UI', sans-serif;
+            }
+
+            section p {
+                font-size: 18px; 
+                line-height: 1.5;
+                margin-bottom: 15px;
+            }
+
+section p.author {
+    text-align: right;
+    font-weight: bold;
+}
+
+figcaption {
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, #a2d4f4 0%, #ffffff 100%);
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Lớp nước */
+.ocean {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  background: #00aaff;
+  overflow: hidden;
+}
+
+/* Lớp sóng */
+.wave {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  top: -30px;
+  left: -50%;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+  animation: wave 6s ease-in-out infinite;
+}
+
+.wave:nth-child(2) {
+  top: -40px;
+  opacity: 0.3;
+  animation-delay: -3s;
+  animation-duration: 8s;
+}
+
+/* Animation sóng nhấp nhô */
+@keyframes wave {
+  0% { transform: translateX(0) translateY(0); }
+  50% { transform: translateX(25%) translateY(15px); }
+  100% { transform: translateX(50%) translateY(0); }
+}
