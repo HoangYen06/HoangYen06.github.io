@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Thị Hoàng Yến | CV Online</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+  </head>
+  
+<body class="flex justify-center content-center">
+    <!-- outer container -->
+    <div class="border border-gray-300 rounded-sm shadow-lg py-10 px-10 w-4/5 mt-10 mb-10"">
+        <!-- header (profile) -->
+        <header>
+           
+                <div class="grid justify-items-start">
+                    <h1 class="text-7xl font-extrabold">NGUYỄN THỊ HOÀNG YẾN</h1>
+                    <p class="text-xl mt-5">Full-stack Developer</p>
+                </div>
+            
+        </header>
+        <!-- detailed info -->
+        <main class="flex gap-x-10 mt-10">
+            <div class="w-2/6">
+                <!-- contact details -->
+                <strong class="text-xl font-medium">Liên hệ</strong>
+                <ul class="mt-2 mb-10">
+                    <li class="px-2 mt-1"><strong class="mr-1">Số điện thoại </strong>
+                        <a href="tel:+821023456789" class="block">+84 10 2345 6789</a>
+                    </li>
+                    <li class="px-2 mt-1"><strong class="mr-1">E-mail </strong>
+                        <a href="mailto:" class="block">nguyenthihoangyen@gmail.com</a>
+                    </li>
+                    <li class="px-2 mt-1"><strong class="mr-1">Địa chỉ</strong><span class="block">TP. Hồ Chí Minh</span></li>
+                </ul>
+
+                <!-- github stats -->
+                <strong class="text-xl font-medium ">Ngoại ngữ</strong>
+                <ul class="flex w-full mt-2 mb-10">
+                    <li class="px-2 mt-2 w-4/12 bg-pink-600 text-white text-center rounded-tl-lg rounded-bl-lg">Tiếng Anh
+                    </li>
+                    <li class="px-2 mt-2 w-4/12 bg-blue-600 text-white text-center">Tiếng Nhật</li>
+                    <li class="px-2 mt-2 w-5/12 bg-yellow-500 text-white text-center rounded-tr-lg rounded-br-lg">Tiếng Hàn
+                    </li>
+
+                </ul>
+                <!-- skills -->
+                <strong class="text-xl font-medium">Kỹ năng</strong>
+                <ul class="mt-2 mb-10">
+                    <li class="px-2 mt-1">Python: Data Analytics</li>
+                    <li class="px-2 mt-1">React</li>
+                    <li class="px-2 mt-1">Back-end Developer</li>
+                    <li class="px-2 mt-1">Web Design</li>
+                </ul>
+                <strong class="text-xl font-medium">Kỹ năng mềm</strong>
+                <ul class="mt-2 mb-10">
+                    <li class="px-2 mt-1">Làm việc nhóm</li>
+                    <li class="px-2 mt-1">Quản lý thời gian</li>
+                </ul>
+                </ul>
+                <!-- what I'm learning these days -->
+                <strong class="text-xl font-medium">Chứng chỉ</strong>
+                <ul class="mt-2 mb-10">
+                    <li class="px-2 mt-1">Chứng chỉ Lập trình Web Fullstack – Udemy</li>
+                    <li class="px-2 mt-1">TOEIC 850 (Listening & Reading)</li>
+                </ul>
+                <strong class="text-xl font-medium">Sở thích</strong>
+                <ul class="mt-2">
+                    <li class="px-2 mt-1">Công nghệ</li>
+                    <li class="px-2 mt-1">Du lịch</li>
+                    <li class="px-2 mt-1">Xem phim</li>
+                </ul>
+            </div>
+            <!-- info -->
+            <div class="w-4/6">
+                <section>
+                    <!-- about me -->
+                    <h2 class="text-2xl pb-1 border-b font-semibold">Giới thiệu</h2>
+                    <p class="mt-4 text-xs">Tôi là Nguyễn Thị Hoàng Yến, sinh ngày 01/01/2003, dự kiến tốt nghiệp chuyên ngành Kỹ thuật Phần mềm tại 
+					Khoa Công nghệ Thông tin, Trường Đại học Bách Khoa vào tháng 6 năm 2025. Là một kỹ sư phần mềm đam mê công nghệ và học hỏi, 
+					tôi mong muốn được làm việc trong môi trường sáng tạo, năng động, nơi tôi có thể phát huy năng lực lập trình, tư duy giải quyết vấn đề 
+					và kỹ năng teamwork, đóng góp vào sự phát triển sản phẩm chất lượng, mang lại giá trị thực tiễn cho người dùng.</p>
+
+                </section>
+                <section>
+                    <!-- projects -->
+                    <h2 class="text-2xl mt-6 pb-1 border-b font-semibold">Dự án</h2>
+                    <ul class="mt-1">
+                        <li class="py-2">
+                            <div class="flex justify-between my-1">
+                                <strong>Website thương mại điện tử</strong>
+                                <p class="flex">
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">HTML</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">CSS</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">JS</span>
+                                </p>
+                            </div>
+                            <ul class="flex mb-2">
+                                <li><a href="#" class="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">Live</a>
+                                </li>
+                                <li><a href="#" class="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">Code</a>
+                                </li>
+                            </ul>
+                            <ul class="text-xs">
+								<li>Tham gia phát triển, tối ưu và bảo trì hệ thống website thương mại điện tử phục vụ hàng nghìn người dùng mỗi ngày.</li>
+								<li>Thiết kế kiến trúc phần mềm, cơ sở dữ liệu, API và các thành phần frontend/back-end.</li>
+								<li>Cộng tác với UI/UX Designer để hiện thực hóa giao diện người dùng thân thiện, dễ sử dụng.</li>
+							</ul>
+                        </li>
+                        <li class="py-2">
+                            <div class="flex justify-between my-1">
+                                <strong>Website học trực tuyến</strong>
+                                <p class="flex">
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">HTML</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">CSS</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">JS</span>
+                                </p>
+                            </div>
+                            <ul class="flex mb-2">
+                                <li><a href="#" class="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">Live</a>
+                                </li>
+                                <li><a href="#" class="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">Code</a>
+                                </li>
+                            </ul>
+                            <ul class="text-xs">
+								<li>Tham gia thiết kế và phát triển hệ thống học trực tuyến (LMS – Learning Management System) 
+								hỗ trợ hàng ngàn học viên truy cập cùng lúc.</li>
+								<li>Xây dựng các tính năng như đăng ký khóa học, xem bài giảng video, làm bài tập, chấm điểm tự động, 
+								diễn đàn thảo luận, và cấp chứng chỉ.</li>
+								<li>ích hợp các dịch vụ bên thứ ba như Zoom, Google Meet, hoặc hệ thống thanh toán (VNPay, Momo).</li>
+								<li>Tối ưu hiệu suất và trải nghiệm người dùng trên cả giao diện web và mobile responsive.</li>
+							</ul>
+                        </li>
+                        <li class="py-2">
+                            <div class="flex justify-between my-1">
+                                <strong>Nhận diện giọng nói tiếng Việt</strong>
+                                <p class="flex">
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">HTML</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">CSS</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">React</span>
+                                    <span class="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">Node.js</span>
+                                </p>
+                            </div>
+                            <ul class="flex mb-2">
+                                <li><a href="#" class="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">Live</a>
+                                </li>
+                                <li><a href="#" class="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">Code</a>
+                                </li>
+                            </ul>
+                            <p class="text-xs">Nhận diện giọng nói tiếng Việt (Vietnamese Speech Recognition) là 
+							quá trình sử dụng công nghệ để chuyển đổi lời nói tiếng Việt thành văn bản (speech-to-text) một cách tự động, giúp máy tính hiểu và xử lý ngôn ngữ nói.</p>
+                        </li>
+                        
+                    </ul>
+                </section>
+                <section>
+                    <!-- work experiences -->
+                    <h2 class="text-2xl mt-6 pb-1 border-b font-semibold">Kinh nghiệm</h2>
+                    <ul class="mt-2">
+                        <li class="pt-2">
+                            <p class="flex justify-between text-sm">Thực tập<strong class="text-base">Công ty FPT Software</strong>02/2025-05/2025</p>
+                            <p class="flex justify-between text-base"><small>TP. HCM</small></p>
+                            
+                        </li>
+                        <li class="pt-2">
+                            <p class="flex justify-between text-sm"><strong class="text-base">Web Developer Freelancer</strong>08/2024-02/2025</p>
+                            
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <!-- education -->
+                    <h2 class="text-2xl mt-6 pb-1 border-b font-semibold">Trình độ học vấn</h2>
+                    <ul class="mt-2">
+                        <li class="pt-2">
+                            <p class="flex justify-between text-sm"><strong class="text-base">Đại học Bách khoa</strong>2021-2025</p>
+                            <p class="flex justify-between text-sm">Chuyên ngành: Kỹ thuật phần mềm<small>GPA 3.5</small></p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </main>
+      
+    </div>
+</body>
+ </html>
+ 
